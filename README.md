@@ -8,6 +8,4 @@
 
 ← `Bull`: É quando você acerta o número e a posição dele também.
 
-Ganha o jogo quando vc descobrir o número secreto.
-
-
+← `Final`: Ganha o jogo quando vc descobrir o número secreto.
