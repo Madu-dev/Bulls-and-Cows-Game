@@ -1,5 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
+p {
+    font-size: 18px;
+}
+
+input {
+    margin-top: 20px;
+    width: 24%;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(215, 215, 215);
+    padding: 10px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+}
+
+.h1 {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    margin-top: 150px;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 38px;
+    font-family: 'Courier New', Courier, monospace;
+}
