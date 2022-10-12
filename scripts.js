@@ -81,3 +81,27 @@ const vacaAndtouro = () => {
   }
   secondTable[count].innerText = `${touro}Touro(s) ${vaca}Vaca(s)`;
 };
+
+//resultado final
+const result = () => {
+  if (touro === 4) {
+    gameResult.innerText = "Parabéns, você descobriu a senha!";
+    count = 100;
+  } else if (count > 8) {
+    gameResult.innerText = `A senha correta é ${randomArray} .`;
+  }
+};
+
+randomValue();
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    switch (button.dataset.value) {
+      case "result":
+        inputValue();
+        break;
+      case "reset":
+        reset();
+        break;
+    }
+  });
+});
