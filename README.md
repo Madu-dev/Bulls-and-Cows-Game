@@ -8,7 +8,7 @@
 
 ← `Bull (touro)`: É quando você acerta o número e a posição dele também.
 
-← `Final`: Ganha o jogo quando vc descobrir o número secreto.
+← `Final`: Ganha o jogo quando vc descobrir o número secreto antes que as suas 9 chances acabe.
 
 ## Exemplo:
 
