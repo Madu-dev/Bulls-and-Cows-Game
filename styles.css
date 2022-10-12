@@ -1,37 +1,28 @@
 body {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-p {
-    font-size: 18px;
+.input-form {
+  display: flex;
+  justify-content: center;
 }
 
-input {
-    margin-top: 20px;
-    width: 24%;
-    height: 25px;
-    text-align: center;
-    font-size: 18px;
+.input-form input {
+  margin: 5px;
+  width: 30px;
+  text-align: center;
 }
 
-table {
-    border-collapse: collapse;
-    margin-top: 30px;
+.btn {
+  margin: 30px 0;
 }
 
-table,
-th,
-td {
-    border: 2px solid rgb(215, 215, 215);
-    padding: 10px;
-}
-
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    width: 25%;
+.btn button {
+  width: 80px;
 }
 
 .h1 {
