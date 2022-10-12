@@ -47,3 +47,37 @@ const randomValue = () => {
   }
   result();
 };
+
+const reset = () => {
+  randomValue();
+  errorText.innerText = "";
+  gameResult.innerText = "";
+  firstTable.forEach((item) => {
+    item.innerText = "";
+  });
+  secondTable.forEach((item) => {
+    item.innerText = "";
+  });
+  for (let i = 0; i < input.length; i++) {
+    input[i].value = "";
+  }
+  count = 0;
+};
+
+//aqui gera uma sequência de número aleatoriamente
+let touro;
+const vacaAndtouro = () => {
+  let vaca = 0;
+  touro = 0;
+  for (let i = 0; i < valueArray.length; i++) {
+    if (valueArray[i] === randomArray[i]) {
+      touro += 1;
+    } else if (
+      valueArray[i] !== randomArray[i] &&
+      randomArray.indexOf(valueArray[i]) >= 0
+    ) {
+      vaca += 1;
+    }
+  }
+  secondTable[count].innerText = `${touro}Touro(s) ${vaca}Vaca(s)`;
+};
