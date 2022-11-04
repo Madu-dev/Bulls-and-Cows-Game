@@ -30,7 +30,7 @@ const randomValue = () => {
     const valueRangeCheck = valueArray.find((item) => {
       return item >= 10;
     });
-    const duplicateNumber = new Set(valueArray);
+   const duplicateNumber = new Set(valueArray);
 
     //verificando se tem número, se tá duplicado ou se é maior que o permitido
   if (blankCheck || nanCheck) {
