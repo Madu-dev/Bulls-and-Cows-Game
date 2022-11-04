@@ -97,7 +97,7 @@ buttons.forEach((button) => {
   button.addEventListener("click", () => {
     switch (button.dataset.value) {
       case "result":
-        inputValue();
+         inputValue();
         break;
       case "reset":
         reset();
