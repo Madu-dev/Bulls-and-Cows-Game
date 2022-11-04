@@ -1,4 +1,4 @@
-const input = document.querySelectorAll("input");
+const input = document.querySelectorAll("input"); 
 const buttons = document.querySelectorAll("button");
 const gameResult = document.querySelector(".gameResult");
 const errorText = document.querySelector(".errorText");
