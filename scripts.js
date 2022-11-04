@@ -19,7 +19,7 @@ const randomValue = () => {
     }
   };
   
-  const inputValue = () => {
+ const inputValue = () => {
     valueArray = [];
     input.forEach((text) => {
       valueArray.push(parseInt(text.value));
