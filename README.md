@@ -15,3 +15,4 @@
 ← `Input`: Número secreto: 9273, Tentativa do oponente: 3295.
 
 ← `Output`: O resultado é um touro (o dígito 2 adivinhado está em seu lugar) e 2 vacas (os dígitos 9 e 3 estão presentes, mas em lugares errados). Ou seja, touro é "2", as vacas são "9" e "3".
+
