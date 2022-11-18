@@ -1,6 +1,6 @@
 # Bulls-and-Cows-Game 🐮
 
- Este jogo tem como objetivo descobrir o "número secreto", que tem 4 dígitos. ✨
+ Este jogo tem como objetivo descobrir o "número secreto", que tem 4 dígitos.✨
 
 ## Como jogar?
 
